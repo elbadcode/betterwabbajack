@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Wabbajack.DTOs\Wabbajack.DTOs.csproj" />
+  </ItemGroup>
+
 </Project>

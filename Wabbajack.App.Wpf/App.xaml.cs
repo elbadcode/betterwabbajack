@@ -93,7 +93,7 @@ namespace Wabbajack
 
         private static bool IsAdmin()
         {
-            if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return false;
+           /* if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return false;
 
             try
             {
@@ -108,7 +108,8 @@ namespace Wabbajack
             catch (Exception)
             {
                 return false;
-            }
+            }*/
+           return false;
         }
 
         private void AddLogging(ILoggingBuilder loggingBuilder)
