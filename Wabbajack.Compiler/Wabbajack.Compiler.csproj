@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <Version>$(VERSION)</Version>
         <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="F23.StringSimilarity" Version="5.0.0" />
+        <PackageReference Include="F23.StringSimilarity" Version="5.1.0" />
         <PackageReference Include="ini-parser-netstandard" Version="2.5.2" />
     </ItemGroup>
 
