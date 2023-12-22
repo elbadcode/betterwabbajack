@@ -1,5 +1,12 @@
 ### Changelog
 
+#### Version - 3.4.1.0 - 12/21/2023
+* Added Support for Final Fantasy 7: Remake Intergrade
+* Update CLI to .NET 8.0 (was missed in the last update)
+* Added Support for Baldur's Gate 3 
+  * Very Work in Progress
+  * **NOT** Plug and Play for compiling and installing!
+
 #### Version - 3.4.0.0 - 11/19/2023
 * Fixed `--outputPath` not being used for the CLI `compile` (thanks to @majcosta for fixing that)
 * Improved Log message for cases where low storage on the drive Wabbajack is installed on causes compiles to fail
