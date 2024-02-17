@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  VERSION: 3.0.6.2
+  VERSION: 3.5.0.2
 
 jobs:
   build:
@@ -71,6 +71,7 @@ jobs:
           - Wabbajack.Compiler
           - Wabbajack.Compression.BSA
           - Wabbajack.Compression.Zip
+          - Wabbajack.Configuration
           - Wabbajack.Downloaders.Bethesda
           - Wabbajack.Downloaders.Dispatcher
           - Wabbajack.Downloaders.GameFile
@@ -83,6 +84,7 @@ jobs:
           - Wabbajack.Downloaders.Mega
           - Wabbajack.Downloaders.ModDB
           - Wabbajack.Downloaders.Nexus
+          - Wabbajack.Downloaders.VerificationCache
           - Wabbajack.Downloaders.WabbajackCDN
           - Wabbajack.DTOs
           - Wabbajack.FileExtractor
