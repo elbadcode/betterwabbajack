@@ -1,3 +1,7 @@
+works as of 9.27.24 but is at least one version behind. automatic sync did not fix compilation so I'll need to manually compile. current version works though so it's not a priority 
+
+btw I just want to say that the whole concept of "users shouldn't be running stuff as admin" is even sillier with all the info that's come out about windows throttling AMD CPUs when games are run without admin mode
+
 # Wabbajack
 
 [![Discord](https://img.shields.io/discord/605449136870916175)](https://discord.gg/wabbajack)
