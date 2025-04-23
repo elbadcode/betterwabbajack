@@ -1,3 +1,6 @@
+# DON'T USE THIS USE MY [PATCHER](https://github.com/elbadcode/Wabbajack-Patcher) INSTEAD
+
+
 # Wabbajack
 
 [![Discord](https://img.shields.io/discord/605449136870916175)](https://www.wabbajack.org/discord)
