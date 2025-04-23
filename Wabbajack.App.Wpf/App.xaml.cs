@@ -196,22 +196,7 @@ public partial class App
 
     private static bool IsAdmin()
     {
-        if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return false;
-
-        try
-        {
-            var identity = WindowsIdentity.GetCurrent();
-            var owner = identity.Owner;
-            if (owner is not null) return owner.IsWellKnown(WellKnownSidType.BuiltinAdministratorsSid);
-
-            var principle = new WindowsPrincipal(identity);
-            return principle.IsInRole(WindowsBuiltInRole.Administrator);
-
-        }
-        catch (Exception)
-        {
-            return false;
-        }
+       return false;
     }
 
     private void AddLogging(ILoggingBuilder loggingBuilder)
